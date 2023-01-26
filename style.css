@@ -1,0 +1,97 @@
+:root {
+    --greyLight1: #f5f5f5;
+    --greyLight2: #c9c9c9;
+    --greyDark1: #8a8a8a;
+    --greyDark2: #707070;
+    --aqua: #25dfe6;
+    --white: #FFFFFF;
+    --black: #000000;
+    --rootsize: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+header {
+    border: 1px solid var(--greyLight2);
+    padding: 25px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a h1 {
+    color: var(--greyDark2);
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 25px 50px;
+    margin: 0;
+    background-color: var(--greyLight1);
+    color: var(--greyDark2);
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-top: 1px solid var(--greyLight2);
+    border-left: 1px solid var(--greyLight2);
+    border-right: 1px solid var(--greyLight2);
+}
+
+.active {
+    padding: 25px 50px;
+    background-color: var(--aqua);
+    color: var(--white);
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+section {
+    padding: 30px;
+    border-top: 10px solid var(--aqua);
+    border-right: 1px solid var(--greyLight2);
+    border-bottom: 1px solid var(--greyLight2);
+    border-left: 1px solid var(--greyLight2);
+}
+
+section h2 {
+    color: var(--greyDark2);
+}
+
+section p {
+    color: var(--greyDark1);
+    max-width: 700px;
+}
+
+section ul li {
+    color: var(--greyDark2);
+}
+
+section ul li a {
+    color: var(--aqua);
+}
